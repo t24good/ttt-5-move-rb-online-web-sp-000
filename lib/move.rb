@@ -12,9 +12,9 @@ end
 
 def input_to_index(user_input)
   user_input_int= user_input.to_i
-  puts "user_input value= #{user_input}"
+  # puts "user_input value= #{user_input}"
   user_input_int = user_input_int - 1
-  puts "user_input_int value= #{user_input_int}"
+  # puts "user_input_int value= #{user_input_int}"
 end
 
 def move(array, index, value= "X")
