@@ -17,6 +17,6 @@ end
 
 board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
-def move(board_array, pos_index, player_value)
-  board_array[pos_index] = player_value
+def move(board, pos_index, player_value)
+  board[pos_index] = player_value
 end
