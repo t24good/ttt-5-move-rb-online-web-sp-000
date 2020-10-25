@@ -10,6 +10,7 @@ end
 
 
 def input_to_index(user_input)
+  board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
   user_input_int= user_input.to_i
   user_input_int = user_input_int - 1
   board = update_array_at_with(board, user_input_int, "X")
@@ -20,5 +21,4 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 update_array_at_with(board, 0, "X")
