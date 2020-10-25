@@ -21,4 +21,4 @@ def move(board, pos_index, player_value)
   board[pos_index] = player_value
 end
 
-update_array_at_with(board, 0, "X")
+move(board, 0, "X")
