@@ -16,6 +16,5 @@ index= input_to_index(input)
 
 move(board, index, "X")
 
-puts "board index #{index} = #{board[index]}"
 
 display_board(board)
