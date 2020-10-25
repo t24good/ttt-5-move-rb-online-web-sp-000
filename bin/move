@@ -10,10 +10,12 @@ board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 puts "Where would you like to go?"
 
 input= gets.strip
-puts "input from gets value= #{input}"
+# puts "input from gets value= #{input}"
 index= input_to_index(input)
-puts "input after input_to_index= #{index}"
+# puts "input after input_to_index= #{index}"
 
 board= move(board, index, "X")
+
+puts "board index #{index} = #{board[index]}"
 
 display_board(board)
