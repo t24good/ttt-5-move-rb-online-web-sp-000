@@ -17,5 +17,4 @@ end
 
 def move(board_array, pos_index, player_value)
   board_array[pos_index] = player_value
-  return board_array
 end
