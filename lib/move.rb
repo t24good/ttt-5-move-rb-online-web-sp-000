@@ -15,7 +15,7 @@ def input_to_index(user_input)
   board = move(board, user_input_int, "X")
 end
 
-def move(board_array, index, value)
-  board_array[index] = value
+def move(board_array, pos_index, player_value)
+  board_array[pos_index] = player_value
   return board_array
 end
