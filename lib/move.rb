@@ -10,6 +10,7 @@ board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
+  board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
   user_input_int= user_input.to_i
   user_input_int = user_input_int - 1
   move(board, user_input_int, 'X')
