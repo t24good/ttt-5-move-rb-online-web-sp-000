@@ -18,7 +18,5 @@ def input_to_index(user_input)
 end
 
 def move(array, index, value= "X")
-  puts "index= #{index}"
   array[index] = value
-  puts "array index #{index} = #{array[index]}"
 end
