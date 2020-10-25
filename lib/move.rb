@@ -12,13 +12,13 @@ end
 def input_to_index(user_input)
   user_input_int= user_input.to_i
   user_input_int = user_input_int - 1
-  board = move(board, user_input_int, "X")
+  board = update_array_at_with(board, user_input_int, "X")
 end
 
 board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
-def move(board, pos_index, player_value)
+def update_array_at_with(board, pos_index, player_value)
   board[pos_index] = player_value
 end
 
-move(board, 0, "X")
+update_array_at_with(board, 0, "X")
