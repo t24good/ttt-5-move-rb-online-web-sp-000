@@ -16,8 +16,8 @@ def input_to_index(user_input)
 end
 
 
-def update_array_at_with(board, pos_index, player_value)
-  board[pos_index] = player_value
+def update_array_at_with(array, index, value)
+  array[index] = value
 end
 
 board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
