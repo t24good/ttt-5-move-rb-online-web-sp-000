@@ -15,10 +15,10 @@ def input_to_index(user_input)
   board = update_array_at_with(board, user_input_int, "X")
 end
 
-board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
 def update_array_at_with(board, pos_index, player_value)
   board[pos_index] = player_value
 end
 
+board= [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 update_array_at_with(board, 0, "X")
